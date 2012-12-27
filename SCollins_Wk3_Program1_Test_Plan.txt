@@ -1,0 +1,60 @@
+Sean Collins
+February 5, 2011
+CS361 Control Structures
+
+Test Plan for Week 4, Program 1
+
+
+
+Test Conditions:
+
+
+1.  Normal input Side 1
+2.	Normal input Side 2
+3.	Normal input Side 3
+4.	Normal input test type: Yes
+5.	Boundary condition not a triangle
+6.	Boundary condition Equilateral triangle
+7.	Boundary condition Isosceles triangle
+8.	Boundary condition Isosceles right triangle
+9.	Boundary condition Scalene triangle
+10.	Boundary condition Scalene right triangle
+
+Test cases for program, and which condition will be tested:
+
+Test 1:		Will test conditions 1, 2, 3, 4 and 5
+Test 2: 	Will test conditions 1, 2, 3, 4 and 6
+Test 3:		Will test conditions 1, 2, 3, 4 and 7
+Test 3a: 	Will test conditions 1, 2, 3, 4 and 8
+Test 4:		Will test conditions 1, 2, 3, 4 and 9
+Test 4a: 	Will test conditions 1, 2, 3, 4 and 10
+
+
+
+
+	Input Values Tested	Output Expected	Comments
+Determine Type	Side 1	Side 2	Side 3	Lengths
+	Type	Hypotenuse	
+Y	4	4	10	4
+4
+10	Not a triangle		Test 1
+Y	5	5	5	5
+5
+5	Equilateral	5	Test 2
+Y	6	6	8	6
+6
+8	Isosceles triangle	8	Test 3
+Y	6	6	8	6
+6
+8	Isosceles right triangle	8	Test 3a
+Y	3	4	5	3
+4
+5	Scalene triangle	5	Test 4
+Y	3	4	5	3
+4
+5	Scalene right triangle.	5	Test 4a
+							
+
+
+
+
