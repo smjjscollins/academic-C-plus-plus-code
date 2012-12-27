@@ -1,0 +1,41 @@
+Sean Collins
+February 18, 2011
+CS361 Control Structures
+Test Plan for Week 6, Program 1
+
+Test Conditions:
+
+
+1.  Normal input credit rating 
+2.	Normal input charge balance less than $1000
+3.	Boundary condition invalid credit rating option
+4.	Boundary condition negative charge balance -10.00
+5.	Boundary condition charge balance of $1000.01
+
+Test cases for program, and which condition will be tested:
+
+Test 1:		Will test conditions 1 and 2
+Test 2:		Will test conditions 1 and 2
+Test 3: 	Will test conditions 1 and 2
+Test 4:		Will test conditions 1 and 2
+Test 5: 	Will test condition  3
+Test 6: 	Will test conditions 1 and 4
+Test 7:		Will test conditions 1 and 5 
+
+
+Input Values Tested	Output Expected		Comments
+Credit Rating	Charge Balance		Current Balance
+	Credit Rating	Interest Rate	Minimum Balance Due	Test Case #
+E	$150.00		$151.75	E	14.00%	$10.00	Test 1
+A	$150.00		$152.00	A	16.00%	$9.12	Test 2
+B	$150.00		$152.25	B	18.00%	$10.66	Test 3
+S	$150.00		$152.50	S	20.00%	$12.20	Test 4
+F							Test 5
+Invalid Entry
+E	-$10.00						Test 6
+Invalid Entry
+B	$1,000.01		$1,015.01	B	18.00%	$60.90	Test 7
+
+
+
+
