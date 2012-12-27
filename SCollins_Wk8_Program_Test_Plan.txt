@@ -1,0 +1,48 @@
+Sean Collins
+March 4, 2011
+CS361 Control Structures
+Test Plan for Week 8, Program 1
+
+Test Conditions:
+
+1.  Normal input month 
+2.	Normal input subscriber name
+3.	Normal input current year
+4.	Normal input subscription length
+5.	Normal input start year
+6.	Boundary condition invalid current year
+7.	Boundary condition invalid subscription length
+8.	Boundary condition invalid start year
+9.	Boundary condition subscription renew
+10.	Boundary condition subscription canceled
+        11. Boundary condition subscription length
+
+Test cases for program, and which condition will be tested:
+
+Test 1:		Will test conditions 1, 2, 3, 4 and 5
+Test 2:		Will test conditions 1, 2, and 6
+Test 3: 	Will test conditions 1, 2, 3 and 7
+Test 4:		Will test conditions 1, 2, 3, 4 and 8
+Test 5:      Will test conditions 1, 2, 3, and 10
+Test 6:      Will test conditions 1, 2, 3, and 9
+Test 7:      Will test conditions 1, 2, 3, 10 and 11
+
+
+Input Values Tested	Output Expected
+Month	Name	Current Year	Years Subsc.	Start Year	Current Date
+	Subscriber name	Start Date	Expire  Date	Status
+'D' 	Sean 
+Collins	2011	2	2010	03/04/11	Sean Collins	03/01/10	02/01/12	Current
+47 months
+'M'
+'ar'	Sean Collins	2010							
+'S'	Sean Collins	2011	6						
+'D'	Sean Collins	2011	5	2005					
+'D'	Sean Collins	2011	2	2009	03/04/11	Sean Collins	02/01/09	02/01/11	Canceled
+'D'	Sean Collins	2011	5	2006	03/04/11	Sean Collins	04/01/06	03/01/11	Canceled
+'D'	Sean Collins	2011	1	2011	03/04/11	Sean Collins	03/01/11	02/01/12	Current
+11 months
+
+
+
+
